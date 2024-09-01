@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Producto Ficticio</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-white">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-5 text-start">
+                    <h1 class="text-light animate__animated animate__pulse">Organiza tu Día con <span class="highlight">To-Do</span></h1>
+                    <p class="lead">La mejor herramienta para gestionar tus tareas diarias de manera eficiente.</p>
+                    <a href="#" class="btn btn-light btn-lg mt-5">¡Comienza Gratis!</a>
+                </div>
+                <div class="col-md-7 text-end">
+                    <img class="img-fluid" src="./img/toDoList.jpg" alt="Imagen de To-Do List">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    
+
+    <!-- Características -->
+<section class="caracteristicas container my-5">
+    <h2 class="text-center mb-5 animate__animated animate__backInUp p-5">¡Porqué <span class="highlight-c">To-Do</span> es para vos!</h2>
+    <div class="row d-flex align-items-start">
+        <div class="col-md-4 text-center d-flex flex-column align-items-center">
+            <img src="./img/list.jpg" alt="Organización Simplificada" class="img-fluid mb-3">
+            <h3 class="mb-3">Organización Simplificada</h3>
+            <p class="mb-4 text-center">Mantén todas tus tareas en un solo lugar. Con To-Do, gestionar tu lista de pendientes es más fácil que nunca. Organiza tus tareas por categorías, fechas, y prioridades para que nunca pierdas el control de tus proyectos.</p>
+        </div>
+        <div class="col-md-4 text-center d-flex flex-column align-items-center">
+            <img src="./img/goal.jpg" alt="Recordatorios Inteligentes" class="img-fluid mb-3">
+            <h3 class="mb-3">Recordatorios Inteligentes</h3>
+            <p class="mb-4 text-center">Nunca olvides una tarea importante. Los recordatorios inteligentes de To-Do te alertan en el momento preciso, ayudándote a cumplir con tus plazos y metas diarias sin estrés.</p>
+        </div>
+        <div class="col-md-4 text-center d-flex flex-column align-items-center">
+            <img src="./img/workWoman.jpg" alt="Integración en la Nube" class="img-fluid mb-3">
+            <h3 class="mb-3">Integración en la Nube</h3>
+            <p class="mb-4 text-center">Accede a tu lista de tareas desde cualquier dispositivo. Con la sincronización en la nube de To-Do, puedes comenzar tu día en la computadora y seguir en tu móvil, sin perder detalle de lo que necesitas hacer.</p>
+        </div>
+    </div>
+</section>
+
+    
+
+    <!-- Testimonios -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Nuestros clientes dicen...</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <img src="./img/Perfil1.jpg" alt="Foto de Juan Pérez" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;">
+                    <p class="mb-4">“Este producto cambió mi vida.”</p>
+                    <footer class="blockquote-footer">Juan Pérez</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <img src="./img/Perfil2.jpg" alt="Foto de María García" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;">
+                    <p class="mb-4">“No puedo imaginar mi día a día sin él.”</p>
+                    <footer class="blockquote-footer">María García</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <img src="./img/Perfil3.jpg" alt="Foto de Carlos López" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;">
+                    <p class="mb-4">“Simplemente maravilloso.”</p>
+                    <footer class="blockquote-footer">Carlos López</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Formulario de Contacto -->
+<section class="container my-5">
+    <h2 class="text-center mb-5">Contáctanos</h2>
+    <p class="text-center mb-4">¿Tienes preguntas? ¡Estamos aquí para ayudarte! Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre completo" required>
+        </div>
+        <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Tu dirección de email" required>
+        </div>
+        <div class="col-12">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+        </div>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-3">
+    <p>&copy; 2024 To-Do. Todos los derechos reservados.</p>
+</footer>
+
+
+
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <script src="./script/script.js"></script>
+</body>
+</html>

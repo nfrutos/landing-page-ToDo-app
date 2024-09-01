@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* HEADER */
+body {
+  /* Formulario de contacto */
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: vh !important;
+  background: linear-gradient(to right, #007bff, #00f2fe);
+}
+body header h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+body header h1 .highlight {
+  color: #28a745;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: color 0.3s ease;
+}
+body header h1 .highlight:hover {
+  color: #1e7e34; /* Un verde más oscuro */
+}
+body header .col-md-7 {
+  padding: 0;
+}
+body header .col-md-5 {
+  padding: 2em;
+}
+body header .col-md-5 .btn-light:hover {
+  background-color: #f8f9fa;
+  transform: scale(1.05);
+  transition: transform 0.6s;
+}
+body header .btn-light {
+  color: #007bff;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+body header .btn-light:hover {
+  background-color: #f8f9fa;
+  color: #1e7e34;
+}
+body .caracteristicas {
+  padding: 4em;
+}
+body .caracteristicas h2 {
+  margin-top: 6rem;
+  font-size: 3.3rem;
+}
+body .caracteristicas h2 .highlight-c {
+  color: #28a745;
+}
+body .caracteristicas .row .col-md-4 img {
+  height: 80px; /* Ajusta según el tamaño que mejor se adapte */
+  object-fit: cover; /* Asegura que la imagen se recorte bien si es necesario */
+}
+body .caracteristicas .row .col-md-4 img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+body .caracteristicas .row .col-md-4 p {
+  font-size: 1.1rem;
+}
+body .caracteristicas .row .col-md-4 {
+  animation: fadeInUp 0.8s ease-in-out;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body form .form-control {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+body form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+body form .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+}
+body form .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/*# sourceMappingURL=styles.css.map */
