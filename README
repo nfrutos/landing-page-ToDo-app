@@ -1,0 +1,43 @@
+To-Do App Landing Page
+
+Landing page para la aplicación To-Do, una herramienta diseñada para ayudar a los usuarios a organizar y gestionar sus tareas diarias de manera eficiente.
+
+Características
+Organización Simplificada: Mantén todas tus tareas en un solo lugar, organizadas por categorías, fechas y prioridades.
+Recordatorios Inteligentes: Recibe alertas en el momento preciso para nunca olvidar una tarea importante.
+Integración en la Nube: Accede a tu lista de tareas desde cualquier dispositivo con sincronización en la nube.
+Tecnologías Utilizadas
+HTML5
+CSS3
+Bootstrap 5
+JavaScript
+FontAwesome: Para los iconos.
+Instalación y Uso
+Clonar el Repositorio
+Primero, clona el repositorio en tu máquina local:
+
+bash
+Copiar código
+git clone https://github.com/nfrutos/landing-page-todo-app.git
+Abrir el Proyecto
+Puedes abrir el proyecto simplemente abriendo el archivo index.html en tu navegador web.
+
+Personalización
+Puedes personalizar la landing page editando los archivos HTML y CSS. Las imágenes y textos se pueden actualizar en el archivo index.html.
+
+Despliegue
+El proyecto está desplegado y accesible públicamente en GitHub Pages.
+
+
+Contribuciones
+Las contribuciones son bienvenidas. Siéntete libre de hacer un fork del proyecto y enviar pull requests.
+
+Licencia
+Este proyecto está bajo la Licencia MIT. Puedes ver más detalles en el archivo LICENSE.
+
+Contacto
+Si tienes preguntas o sugerencias, no dudes en contactar:
+
+Nombre: Nahuel Matías Frutos
+Correo Electrónico: nahuelfrutos@outlook.com
+LinkedIn: www.linkedin.com/in/nahuel-frutos
